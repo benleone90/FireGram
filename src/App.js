@@ -1,11 +1,13 @@
 import React from "react";
-import Title from "./comps/Title.js";
 import "./App.css";
+import Title from "./comps/Title.js";
+import UploadForm from "./comps/UploadForm.js";
 
 function App() {
   return (
     <div className="App">
       <Title />
+      <UploadForm />
     </div>
   );
 }
